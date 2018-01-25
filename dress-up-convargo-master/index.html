@@ -1,0 +1,64 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS/HTML Workshop with Convargo</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    
+
+
+          <div class="grid-x grid-padding-x">
+            <div class="large-12 cell">
+              <div class="primary callout">
+                <p><strong>Beautiful convargo App</strong></p>
+              </div>
+            </div>
+          </div>
+        
+
+          <hr />
+
+          
+          <form>
+            <div class="grid-x grid-padding-x">
+              <div class="large-12 cell" id="trucker">
+                <input class="name" type="text" placeholder="Trucker name"/>
+                <input class="price-by-km" type="number" placeholder="Price by km"/>
+                 <input class="price-by-cubic" type="number" placeholder="Price by m3"/>
+              </div>
+            </div>
+            <div class="grid-x grid-padding-x">
+              <div class="large-4 medium-4 cell">
+                <input class="name" type="text" placeholder="Shipper name"/>
+               <input class="distance" type="number" placeholder="Distance in km"/>
+              <input class="volume" type="number" placeholder="Volume in m3"/>
+             <p><strong>Deductible option</strong></p>
+             <input class="option" type="checkbox" placeholder="Deductible option"/>
+              </div>
+             </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="large-4 medium-4 cell">
+        <br/>
+        <br/>
+          <p><a href="#" class="button" id="compute"> <strong>                       Compute                                   </strong></a><br/></p>
+          <div id="actors"></div>
+          
+        </div>
+      </div>
+    </div>
+    <script src="convargo.js"></script>
+    <script src="index.js"></script>
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
